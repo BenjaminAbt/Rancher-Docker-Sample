@@ -4,8 +4,8 @@ rancher:
   
   docker:
     # see https://rancher.com/docs/rancher/v1.6/en/hosts/
-    engine: docker-17.03.3
-    tls: true
+    engine: docker-17.03.2-ce
+    
   network:
     dns:
       nameservers:
@@ -14,7 +14,7 @@ rancher:
   
 # public keys to log in
 ssh_authorized_keys:
- - AAAAB3NzaC1yc2EAAAABJQAAAQEA77GWc9o3uyUEeDYBN9NRVQ2E5I8Nr+LKgxxA3VUvFn3tiqjuQRsSJXSin3uYiczZfzT03FMFaSWeZG8DA0pFBANTmalgqmILSqhsEpeRF9wM5Jk5Zz1yGiPqN862H6SxelNBbGGDOrPkJxeCwa2q/kvp/3rUf+ncP2009sgEjaAgEPHros8uQDLd5/yhM7UzCZo+YH1dNBooL1JgvROy/POzliA/dzgtlLynNM/peNIzCYtyqN5pnivWYA1VseBN1ziaWy5SBv3mzaotV9hmdElZ1SeBh5V7tBapeILpvdsr4HjfR0jx6lPCjtOb/qbCE+KL73x/88NK97mvixfQGw== admin@rancher
+ - AAAAB3NzaC1yc2EAAAABJQAAAQEA77GWc9o3uyUEeDYBN9NRVQ2E5I8Nr+LKgxxA3VUvFn3tiqjuQRsSJXSin3uYiczZfzT03FMFaSWeZG8DA0pFBANTmalgqmILSqhsEpeRF9wM5Jk5Zz1yGiPqN862H6SxelNBbGGDOrPkJxeCwa2q/kvp/3rUf+ncP2009sgEjaAgEPHros8uQDLd5/yhM7UzCZo+YH1dNBooL1JgvROy/POzliA/dzgtlLynNM/peNIzCYtyqN5pnivWYA1VseBN1ziaWy5SBv3mzaotV9hmdElZ1SeBh5V7tBapeILpvdsr4HjfR0jx6lPCjtOb/qbCE+KL73x/88NK97mvixfQGw==
 
 # install:
 #  sudo ros install -c https://raw.githubusercontent.com/BenjaminAbt/Rancher-Docker-Sample/master/cloud-config.yml -d /dev/sda
