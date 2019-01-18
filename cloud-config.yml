@@ -3,7 +3,7 @@ rancher:
   console: ubuntu
   
   docker:
-    # see https://rancher.com/docs/rancher/v1.6/en/hosts/
+    # see sudo ros engine list
     engine: docker-17.03.2-ce
     
   network:
